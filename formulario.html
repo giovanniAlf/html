@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario</title>
+</head>
+
+<body>
+  <form action="controlador" method="get">
+    <div><label for="number">Ingrese su Edad:</label></div>
+    <input type="number" step="1" min="0" max="20" value="5" name="Edad" />
+
+    <div><label for="Nombre">Nombre:</label>
+      <div>
+
+        <div><input type="text" name="Nombre" required placeholder="Ingrese su Nombre" id="Nombre" autofocus
+            autocomplete="off">
+          <div>
+            <div><input type="color">
+              <div>
+                <button type="submit">Guardar</button>
+
+                <div><label for="email">Ingrese su email:</label></div>
+                <div><input type="text" name="email" required placeholder="Ingrese su Email" id="email" autofocus
+                    autocomplete="off">
+                  <input type="text" id="email" name="email" inputmode="email" required>
+                  <div></div>
+                  <button type="submit">Guardar Email </button>
+
+                  <div><label for="Numero">Ingrese su Numero:</label></div>
+                  <div><input type="text" name="Numero" required placeholder="Ingrese su Numero" id="Numero" autofocus
+                      autocomplete="off">
+                    <div></div>
+                    <button type="submit">Guardar Numero</button>
+  </form>
+
+</body>
+
+</html>
