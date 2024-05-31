@@ -1,68 +1,13 @@
 <html>
 
 <head>
-  <title>Formulario Básico</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 
 <body>
-  <center>
-    <h1>Formulario Básico</h1>
-  </center>
-  <div>
-    <form action="submit.php" method="post" enctype="multipart/form-data">
-      <label for="name">Nombre:</label>
-      <input type="text" id="name" name="name" pattern="[a-zA-Z\s]+" title="Solo se permiten letras y espacios" required
-        placeholder="Ingrese su nombre">
-  </div>
-  <label for="email">Email:</label>
-  <input type="text" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
-    title="Ingresa un email válido" required placeholder="Escriba su email">
-  <div>
-    <label for="age">Edad</label>
-    <input type="text" id="age" name="age" pattern="\d+" title="Solo se permiten números" required
-      placeholder="Ingrese la edad">
-  </div>
-  <label for="gender">Género:</label>
-  <select id="gender" name="gender" required>
-    <option value="">Selecciona un género</option>
-    <option value="male">Masculino</option>
-    <option value="female">Femenino</option>
-  </select>
-  <div>
-    <label>Que eps tiene:</label>
-    <div>
-      <input type="checkbox" id="interest1" name="interests[]" required placeholder="Escriba el nombre de la eps ">
-      SANIDAD
-    </div>
-    <div>
-      <input type="checkbox" id="interest1" name="interests[]" required
-        placeholder="Escriba el nombre de la eps ">SANITAS
-      <div>
-        <input type="checkbox" id="interest1" name="interests[]" required
-          placeholder="Escriba el nombre de la eps ">COOLSALUD
-      </div>
-      <div>
-        <input type="checkbox" id="interest1" name="interests[]" required
-          placeholder="Escriba el nombre de la eps ">COMFENALCO VALLE E.P.S.
-        <div>
-          <input type="checkbox" id="interest1" name="interests[]" required
-            placeholder="Escriba el nombre de la eps ">E.P.S. SANITAS S.A.
-        </div>
-        <div>
-          <input type="checkbox" id="interest1" name="interests[]" required
-            placeholder="Escriba el nombre de la eps ">ASOCIACION MUTUAL SER EMPRESA SOLIDARIA DE SALUD EPS.
-          CAPITAL SALUD.
-        </div>
 
-      </div>
-
-
-    </div>
-    <label for="profile_pic">Foto de perfil:</label>
-    <input for="file" id="profile_pic" name="profile_pic" type="file" required>
-
-    <button for="submit">Enviar</button>
-    </form>
 </body>
 
 </html>
