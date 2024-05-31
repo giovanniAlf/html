@@ -4,10 +4,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Pagina</title>
 </head>
 
 <body>
+  <center>
+    <h1>Bienvenido a mi pagina</h1>
+  </center>
+  <div>
+    Nombre:<input type="text" name="Nombre" required placeholder="Ingrese su Nombre" id="Nombre" autofocus
+      autocomplete="off">
+    <button><input type="submit"></button>
+    <div>
+      Email: <input type="email" required placeholder="ingrese su email" id="email" autocomplete="off">
+      <button><input type="submit"></button>
+      <div>
+        Edad:<input type="number" name="edad" required placeholder="Ingrese su edad" id="edad" step="1" min="0">
+
+        <button><input type="submit"></button>
+      </div>
+      <div>
+        <div><select name="ciudad" id="ciudad">
+            <option value="1">bucaramanga</option>
+            <option value="2" selected>giron </option>
+            <option value="3">florida</option>/select>
+            <option value="4">Bogota</option>
+            <option value="5">Barrancabermeja</option <button type="submit">Guardar</button>
+
+            <label for="sexo">seleccione su sexo</label>
+            <label class="radio-inline">
+              <input type="radio" name="genero" value="masculino" checked>masculino</label>
+            <label class="radio-inline">
+              <input type="radio" name="genero" value="femenino" autocomplete="off">femenino</label>
+        </div>
+        <h4>¿Que EPS tiene el usuario?</h4>
+        <div>
+          <label>
+            <input type="checkbox" name="Sanidad policial">CAPITAL SALUD.
+        </div>
+        <div>
+          <label>
+            <input type="checkbox" name="Sanidad policial">COOSALUD
+        </div>
+        <div>
+          <label>
+            <input type="checkbox" name="Sanidad policial">SANITAS
+        </div>
+        <div>
+          <label>
+            <input type="checkbox" name="Sanidad policial">E.P.S. SANITAS S.A.
+        </div>
+        <div>
+          <label>
+            <input type="checkbox" name="Sanidad policial">SANIDAD POLICIAL
+        </div>
+        <dir>
+          Ingrese una foto de perfil: <input accept="image/png, image/jpg " multiple required type="file">
+        </dir>
+        Ingrese su direccion: <input type="text" max="10" min="5">
+        <button>Enviar</button>
+
 
 </body>
 
